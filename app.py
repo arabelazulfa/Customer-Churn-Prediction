@@ -51,6 +51,8 @@ input_data["Contract"] = input_data["Contract"].map({
     "Month-to-month": 0, "One year": 1, "Two year": 2
 })
 
+input_data = input_data.reindex(columns=feature_names)
+input_data.fillna(0, inplace=True)
 
 input_data = input_data.reindex(columns=feature_names)
 
