@@ -1,1 +1,1 @@
-# Telco-Customer-Churn-Prediction
+Sistem yang dirancang untuk memprediksi kemungkinan pelanggan berheni berlangganan (_churn_) menggunakan machine learning pada sebuah perusahaan. Sistem ini dilatih dengan dataset yang diambil dari kaggle yaitu data perilaku pelanggan perusahaan telekomunikasi yang menyediakan layanan telepon rumah. Model final yang digunakan dalam sistem ini adlaah StackingClassifier kombinasi dari model CatBoost, XGBoost, dan Logistic Regression.
